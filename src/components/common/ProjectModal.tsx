@@ -58,7 +58,6 @@ export default function ProjectModal({ project, modalOpen, onClose }: ProjectMod
                 ref={modalRef}
                 className='relative w-full max-w-5xl bg-dark-purple rounded-2xl shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-300 flex flex-col md:flex-row max-h-[90vh]'
             >
-                {/* Close Button Mobile */}
                 <button
                     onClick={onClose}
                     className='absolute top-4 right-4 z-20 p-2 text-white/50 hover:text-white bg-black/20 hover:bg-black/40 rounded-full md:hidden transition-colors'
@@ -66,8 +65,7 @@ export default function ProjectModal({ project, modalOpen, onClose }: ProjectMod
                     <IoClose size={24} />
                 </button>
 
-                {/* Coluna Esquerda: Imagem e Links */}
-                <div className='w-full md:w-1/2 relative shrink-0 flex flex-col gap-4 justify-center py-12 bg-dark-purple md:border-r border-white/5'>
+                <div className='w-full md:w-1/2 relative shrink-0 flex flex-col gap-4 justify-center pt-12 pb-6 bg-dark-purple md:border-r border-white/5'>
                     <div className='relative flex items-center justify-center px-4 md:px-8'>
                         <img
                             src={project.imageUrl}
@@ -118,7 +116,6 @@ export default function ProjectModal({ project, modalOpen, onClose }: ProjectMod
                     </div>
                 </div>
 
-                {/* Coluna Direita: Conteúdo */}
                 <div className='w-full md:w-1/2 p-6 md:p-10 flex flex-col min-h-0 bg-dark-purple'>
                     <div className='flex items-start justify-between mb-6 shrink-0'>
                         <h3 className='text-2xl md:text-3xl font-bold text-white leading-tight'>{project.name}</h3>
