@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    background: linear-gradient(to top, var(--color-light-purple), var(--color-dark-purple));
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-light-purple) var(--color-dark-purple) ;
+  }
+}
+
+@theme {
+  --animate-text-bg-anim: bgAnim 15s ease-in-out infinite;
+  --color-dark-purple: #24061E;
+  --color-light-purple: #7a1779;
+  --color-tertirary: #D6D6D6;
+  --header-height: 4rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--header-height);
+}
+
+@utility section-title {
+  @apply text-2xl md:text-3xl font-bold text-white uppercase tracking-tight;
+}
+
+@utility section-subtitle {
+  @apply text-purple-300/60 text-[10px] md:text-xs uppercase tracking-[0.2em] font-medium flex items-center gap-3;
+}
+
+@keyframes bgAnim {
+
+  0%,
+  100% {
+    background-position: left top;
+  }
+
+  25% {
+    background-position: right bottom;
+  }
+
+  50% {
+    background-position: left bottom;
+  }
+
+  75% {
+    background-position: right top;
+  }
+}
