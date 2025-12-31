@@ -1,73 +1,40 @@
-# React + TypeScript + Vite
+# Olá, eu sou o Iago Rodrigues! 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Desenvolvedor Full Stack | Graduando em Engenharia de Software
 
-Currently, two official plugins are available:
+Sou um apaixonado por tecnologia focado em construir soluções escaláveis e experiências digitais centradas no usuário. Atualmente, dedico meus estudos à arquitetura de software e ao ecossistema JavaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+### 🛠️ Minha Stack Principal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38BDEF?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🚀 Projetos em Destaque
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **[Task Manager](https://github.com/IagoRdgs/task-manager)** - Aplicação Full Stack com JWT, Prisma e Supabase.
+- **[Codexy Landing Page](https://github.com/IagoRdgs/codexy-landing)** - Foco em performance e animações fluidas com Framer Motion.
+- **[Flappy Bird Vanilla](https://github.com/IagoRdgs/flappy-bird)** - Lógica pura de jogo com JavaScript nativo.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 📊 Estatísticas e Contato
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=IagoRdgs&show_icons=true&theme=dark&bg_color=160b1d&title_color=a855f7&text_color=ffffff&hide_border=true&cache_seconds=1800" height="150" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IagoRdgs&layout=compact&theme=dark&bg_color=160b1d&title_color=a855f7&text_color=ffffff&hide_border=true&cache_seconds=1800" height="150" alt="Linguagens" />
+</p>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- 🌐 [Acesse meu Portfólio](https://iagorodrigues.vercel.app)
+- 💼 [LinkedIn](https://linkedin.com/in/iago-rdgs)
+- 📧 [E-mail](mailto:iago.andreof@gmail.com)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+*Curiosidade técnica: Este perfil mantém meu banco de dados Supabase ativo via GitHub Actions. ⚙️*
