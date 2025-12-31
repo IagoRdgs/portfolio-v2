@@ -50,7 +50,7 @@ export default function Skills() {
 
     return <section id='skills' className='
         relative w-full h-auto
-        pt-10 pb-24 -mt-36 md:-mt-28 rounded-t-[3rem]
+        pt-10 pb-24 -mt-24 md:-mt-28 rounded-t-[3rem]
         bg-dark-purple
         border-t border-white/10
         shadow-[0_-20px_40px_rgba(0,0,0,0.2)]
@@ -110,7 +110,7 @@ export default function Skills() {
                                         return (
                                             <div
                                                 key={skill._id}
-                                                className='group/skill flex flex-col items-center justify-center gap-3 p-4 w-24 h-28 md:w-28 md:h-32 rounded-2xl 
+                                                className='group/skill flex flex-col items-center justify-center gap-2 p-4 w-22 h-28 md:w-28 md:h-32 rounded-2xl 
                                                 bg-white/3 border border-white/5 
                                                 hover:border-light-purple/30 hover:bg-white/6
                                                 hover:shadow-[0_8px_20px_rgba(0,0,0,0.4)] 
