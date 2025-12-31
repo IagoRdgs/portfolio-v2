@@ -5,7 +5,7 @@ export default function AboutMe() {
     return (
         <section id='about-me' className='w-full pt-10 pb-16 md:pb-24 bg-dark-purple backdrop-blur-sm flex items-center relative'>
             <Container>
-                <div className='absolute top-0 left-1/4 w-96 h-96 bg-purple-900/20 blur-[120px] pointer-events-none' />
+                <div className='absolute hidden md:block top-0 left-1/4 w-96 h-96 bg-purple-900/20 blur-[120px] pointer-events-none' />
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center'>
                     <div className='space-y-6'>
